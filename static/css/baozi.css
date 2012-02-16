@@ -1,0 +1,55 @@
+#restaurant-menu table {
+    text-align: left;
+    width: 100%;
+}
+
+#restaurant-menu table td:last-child {
+    text-align: right;
+}
+
+#form {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+}
+
+#form_table {
+    margin: 1em auto;
+}
+
+.label {
+    font-weight: bold !important;
+    padding-right: 1em;
+}
+
+.slogan {
+    font-size: 14px;
+}
+
+.slogan strong {
+    font-style: italic;
+}
+
+.star {
+    color: red;
+    font-weight: bold;
+}
+
+.notice {
+    text-align: center;
+    color: grey;
+    font-size: 0.8em;
+    padding: 1em 0;
+}
+
+input, select, option {
+    display: block;
+    width: 100%;
+}
+
+#msg {
+    padding: 1em 0 0 0;
+    text-align: center;
+    color: red;
+}

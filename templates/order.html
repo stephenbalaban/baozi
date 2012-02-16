@@ -1,0 +1,28 @@
+$def with (order={})
+<html>
+    <head>
+        <title>Order Finished</title>
+        <link href="/static/css/baozi.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Thanks for your order!</h1>
+
+        <p>
+            You should get it by tomorrow morning when stephen comes in to work.
+        </p>
+
+        <img src="/static/images/nice_bao.jpg" alt="a smaling baozi - 微笑的包子"/>
+            
+        $if order:
+            <h2>Order:</h2>
+            <table cellspacing="0">
+                <tbody>
+                    $for key, val in order.items():
+                    <tr>
+                        <td class="label">$key:</td>
+                        <td>$val</td>
+                    </tr>
+                </tbody>
+            </table>
+    </body>
+</html>
