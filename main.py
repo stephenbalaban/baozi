@@ -20,7 +20,7 @@ app = web.application(urls, globals())
 render = web.template.render('templates')
 
 # baozi pricing & db
-DB = 'baozi'
+DB = 'baozi.db'
 BAO_PRICE = Decimal('0.70')
 
 # webpy sendmail with gmail

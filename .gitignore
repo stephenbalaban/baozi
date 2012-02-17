@@ -1,2 +1,6 @@
 localconf.py
 *.pyc
+web
+webpy/
+bao.out
+bao.err
